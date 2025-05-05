@@ -1,0 +1,36 @@
+{
+    "name": "My Simple Poll",
+    "questions": [
+        {
+            "prompt": "Simple Question",
+            "answers": [
+                "Simple Answer 1",
+                "Simple Answer 2"
+            ]
+        }
+    ],
+    "responders": [
+        {
+            "first name": "Simple First Name",
+            "last name": "Simple Last Name",
+            "phone number": 2214567878,
+            "email": "Simple@Simple.com",
+            "age": 20,
+            "gender id": 2,
+            "income": 2000,
+            "occupation": "Test Dummy",
+            "responses": [
+                {
+                    "responded question": {
+                        "prompt": "Simple Question",
+                        "answers": [
+                            "Simple Answer 1",
+                            "Simple Answer 2"
+                        ]
+                    },
+                    "answer": "Simple Answer 2"
+                }
+            ]
+        }
+    ]
+}

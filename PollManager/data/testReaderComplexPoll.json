@@ -1,0 +1,92 @@
+{
+    "name": "My Complex Poll",
+    "questions": [
+        {
+            "prompt": "Simple Question",
+            "answers": [
+                "Simple Answer 1",
+                "Simple Answer 2"
+            ]
+        },
+        {
+            "prompt": "Complex Question",
+            "answers": [
+                "Complex Answer 1",
+                "Complex Answer 2",
+                "Complex Answer 3"
+            ]
+        },
+        {
+            "prompt": "Unfinished Question",
+            "answers": []
+        }
+    ],
+    "responders": [
+        {
+            "first name": "Simple First Name",
+            "last name": "Simple Last Name",
+            "phone number": 2214567878,
+            "email": "Simple@Simple.com",
+            "age": 20,
+            "gender id": 2,
+            "income": 2000,
+            "occupation": "Test Dummy",
+            "responses": [
+                {
+                    "responded question": {
+                        "prompt": "Simple Question",
+                        "answers": [
+                            "Simple Answer 1",
+                            "Simple Answer 2"
+                        ]
+                    },
+                    "answer": "Simple Answer 2"
+                }
+            ]
+        },
+        {
+            "first name": "Lazy First Name",
+            "last name": "Lazy Last Name",
+            "phone number": 9996758989,
+            "email": "Lazy@Lazy.com",
+            "age": 1,
+            "gender id": 1,
+            "income": 0,
+            "occupation": "Unemployed",
+            "responses": []
+        },
+        {
+            "first name": "Complex First Name",
+            "last name": "Complex Last Name",
+            "phone number": 7654569867,
+            "email": "Complex@Complex.com",
+            "age": 65,
+            "gender id": 3,
+            "income": 10000,
+            "occupation": "Complex Test Dummy",
+            "responses": [
+                {
+                    "responded question": {
+                        "prompt": "Simple Question",
+                        "answers": [
+                            "Simple Answer 1",
+                            "Simple Answer 2"
+                        ]
+                    },
+                    "answer": "Simple Answer 1"
+                },
+                {
+                    "responded question": {
+                        "prompt": "Complex Question",
+                        "answers": [
+                            "Complex Answer 1",
+                            "Complex Answer 2",
+                            "Complex Answer 3"
+                        ]
+                    },
+                    "answer": "Complex Answer 3"
+                }
+            ]
+        }
+    ]
+}
